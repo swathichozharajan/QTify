@@ -1,0 +1,4 @@
+node_modules/
+build/
+assessment/node_modules/
+.env
