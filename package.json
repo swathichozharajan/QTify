@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
+
+  "repository":{
     "type": "git",
     "url": "git@gitlab.crio.do:COHORT_ME_BUILDOUT_QTIFY_V2_ENROLL_1773052985985/swathichozharajan-ME_BUILDOUT_QTIFY_V2.git"
   },
