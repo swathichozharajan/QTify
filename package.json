@@ -2,16 +2,11 @@
 {
   "name": "swathichozharajan-me_buildout_qtify_v2",
   "version": "1.0.0",
-  "description": "QTify Music Application",
   "private": true,
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.crio.do:COHORT_ME_BUILDOUT_QTIFY_V2_ENROLL_1773052985985/swathichozharajan-ME_BUILDOUT_QTIFY_V2.git"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -25,23 +20,9 @@
     "react-dom": "^19.3.1",
     "react-router-dom": "^7.18.7",
     "react-scripts": "^5.0.1",
-    "swiper": "^14.4.0"
-  },
-  "devDependencies": {
+    "swiper": "^14.4.0",
     "@vitejs/plugin-react": "4.3.4",
     "vite": "4.5.14",
     "vite-plugin-svgr": "4.3.0"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
